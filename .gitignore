@@ -1,0 +1,19 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore environment file
+.env
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Docker related files
+docker-compose.override.yml
+docker-compose.yml
+.dockerignore
+
+# Ignore logs and other temporary files
+logs/
+*.log
